@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    width: 300px;
+    padding-left: 25px;
+}
+
+header{
+    background-color: #f4f4f5 ;
+}
+
+.primeroPrimero{
+    padding-bottom: 20px;
+}
+
+.primero{
+    display:flex;
+}
+
+.buscador{
+    width: 550px;
+    margin-top: 40px;
+    height: 30px;
+    margin-left: 600px;
+}
+
+.segundoSegundo{
+    position: absolute;
+    width: 100%;
+}
+
+.segundo{
+    background-color: #11525b;
+    margin-top: 50px;
+}
+
+.terceroTercero{
+    display: none;
+}
+
+.tercero{
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+    
+}
+
+.navegador{
+    color: #fff;
+    width: 25%;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: auto;
+    font-family:'Ruda', sans-serif;
+}
+
+.imagenCentral{
+    width: 100%;
+    height: 480px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+}
+
+.telefono{
+    margin-left: 565px;
+}
+
+.carro{
+    border: 0;
+    font-size: 20px;
+    margin-left: 25px;
+    color: #11525b;
+}
+
+.contenedorportada{
+    background-image: url(file:///C:/Users/Usuario/Desktop/Nucba/Entrega3/AdobeStock_178178479.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.slogan{
+    text-align: center;
+    font-size: 75px;
+    margin: 100px 155px 35px 550px;
+    position: absolute;
+    background-color: #fbfbfd;
+    color: #11525b;
+}
+
+.textoslogan{
+    position: absolute;
+    font-size: 30px;
+    margin: 300px 155px 100px 550px;
+    text-align: center;
+    background-color: #11525b;
+    color: white;
+}
+.nosotros{
+    background-color: #11525b;
+    padding: 10px;
+}
+
+.contenedornosotros{
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #11525b;
+    color: white;
+}
+
+.nosotrostxt1{
+    padding: 20px;
+}
+
+.nosotrostxt2{
+    padding: 15px;
+}
