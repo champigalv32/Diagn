@@ -3,54 +3,43 @@
     padding: 0px;
 }
 
+.contenedorprimero{
+    display: flex;
+    background-color: #f7f7f7;
+}
+
 .logo{
     width: 300px;
     padding-left: 25px;
 }
 
-header{
-    background-color: #f4f4f5 ;
-}
-
-.primeroPrimero{
-    padding-bottom: 20px;
-}
-
-.primero{
-    display:flex;
+.contenedorformulario{
+    margin-left: 300px;
 }
 
 .buscador{
     width: 550px;
-    margin-top: 40px;
-    height: 30px;
-    margin-left: 600px;
-}
-
-.segundoSegundo{
-    position: absolute;
-    width: 100%;
-}
-
-.segundo{
-    background-color: #11525b;
     margin-top: 50px;
+    height: 30px;
+    text-align: end;
 }
 
-.terceroTercero{
-    display: none;
+.carro{
+    border: 0;
+    font-size: 20px;
+    margin-left: 25px;
+    color: #11525b;
 }
 
-.tercero{
-    padding: 10px;
-    margin-top: 30px;
+.contenedornav{
+    background-color: #11525b;
+    padding: 5px;
 }
 
 .lista{
     display: flex;
     list-style: none;
-    margin-bottom: 0px;
-    
+    justify-content: space-around;
 }
 
 .navegador{
@@ -62,49 +51,51 @@ header{
     font-family:'Ruda', sans-serif;
 }
 
-.imagenCentral{
-    width: 100%;
-    height: 480px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 20px;
-}
-
-.telefono{
-    margin-left: 565px;
-}
-
-.carro{
-    border: 0;
-    font-size: 20px;
-    margin-left: 25px;
-    color: #11525b;
-}
-
 .contenedorportada{
-    background-image: url(https://plazasalud24.com/wp-content/uploads/2019/06/AdobeStock_178178479.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+    display: flex;
+}
+
+.contenedortxt{
+    background-color: #f4f4f5;
 }
 
 .slogan{
     text-align: center;
-    font-size: 75px;
-    margin: 100px 155px 35px 550px;
-    position: absolute;
-    background-color: #fbfbfd;
-    color: #11525b;
+    font-size: 65px;
+    margin: 50px 75px 0px 75px;
+    color: #26374d;
 }
 
 .textoslogan{
-    position: absolute;
-    font-size: 30px;
-    margin: 300px 155px 100px 550px;
+    font-size: 25px;
+    margin: 25px 45px;
     text-align: center;
+    background-color: #266b7499;
+    color: white;
+    padding: 10px;
+}
+
+.boton1{
+    margin-left: 200px;
+    margin-right: 20px;
     background-color: #11525b;
     color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton2{
+    background-color: #11525b;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.imagenportada{
+    width: 650px;
+    height: 420px;
 }
 .nosotros{
     background-color: #11525b;
