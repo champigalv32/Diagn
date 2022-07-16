@@ -121,3 +121,132 @@
     padding: 15px;
     font-size: 20px;
 }
+
+.titulobeneficios{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.subtitulobeneficios{
+    text-align: center;
+    padding: 0px 150px 20px;
+}
+
+.contenedorcards{
+    display: flex;
+    padding: 25px 50px;
+}
+
+.cards{
+    margin: 0px 40px;
+}
+
+.imgcard{
+    height: 200px;
+    width: 333px;
+}
+
+.parrafocard{
+    padding: 15px 0px;
+}
+
+.contenedorcontacto{
+    margin: 15px 50px;
+    background-color: #11525b;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.titulocontacto{
+    color: white;
+    text-align: initial;
+    font-size: 35px;
+    padding: 55px 0px 15px 100px;
+}
+
+.parrafocontacto{
+    color: white;
+    font-size: 18px;
+    padding: 5px 200px 15px 100px;
+}
+
+.contenedoriconos{
+    margin: 25px 0px;
+}
+
+.iconocontacto{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+
+.formafondoicono{
+    border-radius: 50px;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+}
+
+.imageniconocontacto{
+    width: 25px;
+    height: 25px;
+    margin: 10px 5px 50px 12px;
+}
+
+.textoladoicono{
+    margin: 10px 35px;
+}
+
+.textoladoicononuevo{
+    text-decoration: none;
+    color: white;
+}
+
+.mapaubicacion{
+    padding: 60px 50px 25px;
+}
+
+.contenedorfooter{
+    background-color: #f7f7f7;
+}
+
+.imagenfooter{
+    width: 300px;
+    margin-left: 400px;
+    margin: 30px 524px 0px;
+}
+
+.parrafobajologo{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    font-size: 15px;
+}
+
+.contenedorredes{
+    text-align: center;
+}
+
+.tituloredes{
+    margin: 20px 0px 0px;
+}
+
+.listaredes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.redes{
+    margin: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.contenedorcopy{
+    text-align: center;
+    margin: 25px 0px 0px;
+}
