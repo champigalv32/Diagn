@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ruda:wght@800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="contenedorprimero">
             <img src="logo.jpg" class="logo" alt="">
             <div class="contenedorformulario">
@@ -24,8 +25,10 @@
                 </form>
             </div>
         </div>
-        <nav>
+        <nav class="nav">
             <div class="contenedornav">
+                <label for="toggle-menu"> <i class="fas fa-bars"></i></label>
+                <input type="checkbox" id="toggle-menu">
                 <ul class="lista">
                     <li>
                         <a href="" class="navegador">Nosotros </a>
@@ -69,20 +72,20 @@
             <div class="contenedorbeneficios">
                 <div class="contenedortitulobeneficios">
                     <h2 class="titulobeneficios">Nuestros beneficios</h2>
-                    <p class="subtitulobeneficios">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores impedit recusandae id ipsa reprehenderit quisquam dolore illum quam laudantium omnis explicabo iste porro corrupti, quo officia laboriosam? Laudantium, totam fugiat!</p>
+                    <p class="subtitulobeneficios">La experiencia y el funcionamiento de nuestra estructura permiten atender las operaciones y proyectos de empresas que se desenvuelven en diversos rubros de la industria y el comercio, brindandoles:</p>
                 </div>
                 <div class="contenedorcards">
                     <div class="cards">
-                        <img src="foto1.jpeg" alt="" class="imgcard">
-                        <p class="parrafocard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam maxime veritatis, optio earum iste iure </p>
+                        <img src="foto 2.jpg" alt="" class="imgcard">
+                        <p class="parrafocard">Amplia variedad y surtido de productos de marcas nacionales y extranjeras </p>
                     </div>
                     <div class="cards">
-                        <img src="foto2.webp" alt="" class="imgcard">
-                        <p class="parrafocard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam maxime veritatis, optio earum iste iure</p>
+                        <img src="foto 1.png" alt="" class="imgcard">
+                        <p class="parrafocard">Envío rápido y seguro</p>
                     </div>
                     <div class="cards">
-                        <img src="foto3.jpg" alt="" class="imgcard">
-                        <p class="parrafocard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam maxime veritatis, optio earum iste iure</p>
+                        <img src="foto3.webp" alt="" class="imgcard">
+                        <p class="parrafocard">Te acompañamos hasta que recibas lo que compraste. Y si no es lo que esperabas, te devolvemos el dinero.</p>
                     </div>
                 </div>
             </div>
@@ -121,15 +124,14 @@
                     </div>
                 </div>
                 <div class="mapaubicacion">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.8527282621835!2d-64.25370668516335!3d-31.25249999547031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943283524b138265%3A0xe813546d758d2054!2sAv.%20Mart%C3%ADn%20Tissera%204700%2C%20X5108BYO%20Mendiolaza%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1657915205558!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.8527282621835!2d-64.25370668516335!3d-31.25249999547031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943283524b138265%3A0xe813546d758d2054!2sAv.%20Mart%C3%ADn%20Tissera%204700%2C%20X5108BYO%20Mendiolaza%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1657915205558!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
                 </div>
-                <hr>
             </div>
         </section>
     </main>
     <footer>
         <div class="contenedorfooter">
-            <div>
+            <div class="contenedorimgyp">
                 <img src="logo.jpg" alt="" class="imagenfooter">
                 <p class="parrafobajologo">Somos una marca lider en el mercado, ofreciendo los mejores productos relacionados con la salud y el bienestar de la sociedad.</p>
             </div> 

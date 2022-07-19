@@ -3,22 +3,35 @@
     padding: 0px;
 }
 
+.header{
+    background-color: #f7f7f7;
+    width: 100%;
+}
 .contenedorprimero{
     display: flex;
-    background-color: #f7f7f7;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contenedornav i{
+    font-size: 36px;
+    display: none;
+}
+
+#toggle-menu{
+    display: none;
 }
 
 .logo{
     width: 300px;
     padding-left: 25px;
 }
-
 .contenedorformulario{
-    margin-left: 300px;
+    margin-right: 20px;
 }
 
 .buscador{
-    width: 550px;
+    width: 500px;
     margin-top: 50px;
     height: 30px;
     text-align: end;
@@ -29,6 +42,7 @@
     font-size: 20px;
     margin-left: 25px;
     color: #11525b;
+    background-color: #f7f7f7;
 }
 
 .contenedornav{
@@ -49,6 +63,11 @@
     font-size: 20px;
     text-decoration: auto;
     font-family:'Ruda', sans-serif;
+}
+
+.portada{
+    width: 100%;
+    background-color: #f7f7f7;
 }
 
 .contenedorportada{
@@ -105,8 +124,8 @@
 }
 
 .contenedornosotros{
-    width: 800px;
-    margin: 20px auto;
+    width: 80%;
+    margin: auto;
     text-align: center;
     background-color: #11525b;
     color: white;
@@ -126,6 +145,7 @@
     text-align: center;
     padding: 20px;
     font-size: 40px;
+    color: #11525b;
 }
 
 .subtitulobeneficios{
@@ -140,15 +160,20 @@
 
 .cards{
     margin: 0px 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .imgcard{
     height: 200px;
     width: 333px;
+    margin: auto;
 }
 
 .parrafocard{
     padding: 15px 0px;
+    margin: auto;
+    text-align: center;
 }
 
 .contenedorcontacto{
@@ -209,6 +234,11 @@
 
 .contenedorfooter{
     background-color: #f7f7f7;
+    width: 100%;
+}
+.contenedorimgyp{
+    display: flex;
+    flex-direction: column;
 }
 
 .imagenfooter{
@@ -250,3 +280,138 @@
     text-align: center;
     margin: 25px 0px 0px;
 }
+
+
+
+
+
+@media (max-width: 1200px){
+    .logo{
+        width: 200px;
+    }
+    .buscador{
+        width: 200px;
+    }
+    .carro{
+        display: none;
+    }
+    .imagenportada{
+        display: none;
+    }
+    .contenedorportada{
+        padding-bottom: 20px
+    }
+    .contenedorbotones{
+        margin: auto;
+    }
+    .boton1{
+        margin-left: 0px;
+    }
+    .contenedorcards{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .cards{
+        margin: 15px 170px;
+    }
+    .parrafocard{
+        padding: 15px 50px 15px 10px;
+    }
+    .contenedorcontacto{
+        flex-direction: column;
+    }
+    .titulocontacto{
+        text-align: center;
+        padding: 35px 35px 15px;
+    }
+    .parrafocontacto{
+        text-align: center;
+        width: 350px;
+        margin: auto;
+        padding: 0px;
+    }
+    .contenedoriconos{
+        margin: auto;
+        width: 500px;
+        padding: 35px 0px 20px 0px;
+    }
+    .mapaubicacion{
+        padding: 0px;
+        margin: auto;
+    }
+    .contenedorlogoyparrafo{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagenfooter{
+        margin: auto;
+    }
+}
+
+@media (max-width: 576px){
+    .buscador{
+        width: 100px;
+    }
+    .slogan{
+        font-size: 45px;
+    }
+    .subtitulobeneficios{
+        padding:  0px 30px 20px;
+    }
+    .textoslogan{
+        font-size: 20px;
+    }
+    .mapaubicacion{
+        padding: 0px;
+        margin: auto;
+    }
+
+    .parrafocontacto{
+        width: 200px;
+    }
+    .iconocontacto{
+        margin-left: 100px;
+    }
+    .textoladoicono{
+        margin: 10px 25px;
+    }
+    .contenedorlogoyparrafo{
+        display: flex;
+        flex-direction: column;
+    }
+    .mapa{
+        height: 150px;
+        width: 250px;
+    }
+    .imagenfooter{
+        margin: auto;
+    }
+
+    .textoladoicononuevo{
+        width: 150px;
+    }
+    .parrafobajologo{
+        width: 310px;
+    }
+    .titulobeneficios{
+        font-size: 30px;
+    }
+    .navegador{
+        font-size: 15px;
+    }
+    .beneficios{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1400px){
+    .imagenportada{
+        width: 600px;
+        height: 400px;
+    }
+    .slogan{
+        font-size: 60px;
+    }
+}
+
